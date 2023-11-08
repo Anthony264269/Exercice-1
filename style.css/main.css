@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+header{
+    color: #FFFFFF;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titre{
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-self: center;
+   
+
+    
+}
+
+.liste a{
+
+    color: #FFFFFF;
+    margin:5px;
+    font-size: 30px;
+    width: 150px;
+    text-decoration: none;
+    
+}
+
+.logobouygues img{
+    position: relative;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.liste a:hover{color: darkgray;}
+
+.article{
+display: flex;
+justify-content: right;
+
+}
+
+.suite a{
+    display: flex;
+    justify-content: right;
+    color: red;
+}
